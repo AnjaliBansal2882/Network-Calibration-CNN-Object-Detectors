@@ -12,7 +12,7 @@ def reliability_plot(bin_dict, prec, loss, modl):
     # Compute bin starts and widths
     bin_starts = [0.0] + bin_ends[:-1]
     widths = 0.1
-    heights = [bin_dict[end] for end in bin_ends]
+    heights = [bin_dict[end] for end in bin_ends] 
     print(f"heights: {heights}")
     print(f"precision: ",prec)
     fig, ax = plt.subplots()
