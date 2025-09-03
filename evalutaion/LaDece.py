@@ -9,7 +9,7 @@ def reliability_plot(bin_dict, prec, bin_iou, loss, modl):
 
     bin_ends = sorted(bin_dict.keys())
     # Compute bin starts and widths
-    bin_starts = [0.0] + bin_ends[:-1]
+    bin_starts = [0.0] + bin_ends[:-1] 
     widths = 0.1
     heights = [bin_dict[end] for end in bin_ends]
     print(f"heights: {heights}")
