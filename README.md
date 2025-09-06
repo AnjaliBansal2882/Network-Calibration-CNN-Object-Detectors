@@ -10,7 +10,7 @@ For eg.: Among all predictions made with 70% confidence, roughly 70% should be c
 ## Loss Functions
 ---
 
-Various types of loss functions can be applied along with the conventional regression and classification losses of the model, used for computing the gradients and hence updating the activations.
+Various types of auxilliary loss functions can be applied along with the conventional regression and classification losses of the model, used for computing the gradients and hence updating the activations.
 I have personally studied and implemented 3 of such losses for getting a true picture of my model. The losses I implemented are as follows:
 
 1. **MbLS** (Margin based Label Smoothing): which is also an implementation of the paper [The Devil is in the Margin:
